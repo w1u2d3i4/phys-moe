@@ -1,6 +1,6 @@
-# ICL: Independent and Collaborative Learning for Long-Tail Visual Recognition
+# Physics-Routed MoE with Crystallographic Priors for Long-Tailed Space-Group Recognition
 
-Enhancing Mixture of Experts with Independent and Collaborative Learning for Long‑Tail Visual Recognition (IJCAI 2025)
+Enhancing Mixture of Experts with Independent and Collaborative Learning for Long‑Tail Visual Recognition
 
 This project implements a Mixture of Experts (MoE) framework that integrates **Independent Learning** and **Collaborative Learning** to address long-tail visual recognition problems. The framework is specifically designed for space group classification tasks on XRD (X-ray Diffraction) data, achieving excellent performance on datasets with extreme long-tail distributions.
 
