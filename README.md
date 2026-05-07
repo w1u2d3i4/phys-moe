@@ -1,9 +1,6 @@
 # Physics-Routed MoE with Crystallographic Priors for Long-Tailed Space-Group Recognition
 
-Enhancing Mixture of Experts with Independent and Collaborative Learning for Long‑Tail Visual Recognition
-
-This project implements a Mixture of Experts (MoE) framework that integrates **Independent Learning** and **Collaborative Learning** to address long-tail visual recognition problems. The framework is specifically designed for space group classification tasks on XRD (X-ray Diffraction) data, achieving excellent performance on datasets with extreme long-tail distributions.
-
+This project implements **Phys-MoE**, a physics-routed Mixture-of-Experts framework for long-tailed space-group recognition from powder X-ray diffraction (PXRD) patterns. Instead of treating the 230-way space-group prediction task as a flat long-tailed classification problem, Phys-MoE injects crystallographic priors through **Hierarchical Routing (HR)**, **Rule-Guided Experts (RGE)**, and **Rule-Semantic Contrastive Learning (RSCL)**. The framework is designed to address extreme class imbalance and Sub-Property Confusion (SPC), where rare space groups are often confused with frequent groups sharing similar crystal-system or symmetry rules. On the CCDC benchmark, Phys-MoE achieves strong overall accuracy while substantially improving Extreme-Tail recognition.
 ---
 
 ## 📋 Table of Contents
